@@ -9,5 +9,5 @@ http.createServer(ecstatic({
   root: './static',
   gzip: true,
 })).listen(listenOn, function () {
-  console.log('listening on %s', this.address())
+  console.log('listening on %j', this.address())
 })
